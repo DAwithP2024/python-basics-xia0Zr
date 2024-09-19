@@ -73,7 +73,7 @@ jobs:
       with:
         test-name: Test sort descending
         setup-command: pip install pytest
-        command: python -m unittest graded_ex1_test.TestShoppingProgram.test_sort_ascending
+        command: python -m unittest graded_ex1_test.TestShoppingProgram.test_sort_descending
         timeout: 3
         max-score: 1
     - name: Test add to cart
